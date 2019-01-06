@@ -5,15 +5,9 @@
 ul,li,ol{
     list-style: none;
 }
-a{
-    text-decoration: none;
-}
-.fu{
-	float: left;
-}
 .one_0{
 	width: 100%;
-	z-index: 10;
+	z-index: 12;
 }
 .one_1{
 	width: 1180px;
@@ -25,7 +19,7 @@ a{
 .help{
 	font-size: 13px;
 	color: #9a9791;
-	margin:5px 411px 0px 0px;
+	margin:5px 41px 0px 0px;
 	float: left;
 }
 .wei{
@@ -174,7 +168,7 @@ a{
 	background-color: #f6f5f4;
 	float: left;	
 }
-.white{
+.wh{
 	width: 1180px;
 	height: 630px;
 	margin:0px auto;
@@ -308,15 +302,15 @@ a{
 	border:5px solid #aca9d3;
 	z-index:1001;
 }
-.a11{
+.a2{
 	margin:3px 0px 0px 372px;
 	background-color: white;
 	border:1px solid white;
 }
-.a12{
+.a3{
 	margin:10px 0px 0px 15px;
 }
-.a121{
+.a4{
 	float: left;
 	font-size: 16px;
 	background-color: white;
@@ -326,19 +320,19 @@ a{
 	border-radius:5px;
 	margin-left: 15px;
 }
-.autohe31{
+.zuixiahe11{
 	margin:10px 3px 0px 342px;
 	font-size: 12px;
 	color: #9a9791;
 	float: left;
 }
-.autohe32{
+.zuixiahe12{
 	margin:10px 3px 0px 0px;
 	font-size: 12px;
 	color: #9a9791;
 	float: left;
 }
-.autohe33{
+.zuixiahe13{
 	margin-top:10px;
 	font-size: 12px;
 	color: #9a9791;
@@ -347,26 +341,26 @@ a{
 .left12{
 	float: left;
 }
-.left121{
-	border:2px solid #ff9003;
+.left13{
+	border:3px solid #ff9003;
 }
-.left122{
-	border:2px solid white;
+.left14{
+	border:3px solid white;
 }
 .left2{
-	width: 550px;
+	width: 545px;
 	float: left;
 	margin-top: 15px;
 }
 .left22{
-	font-size: 12px;
+	font-size: 13px;
 	color: #676660;
 	margin-top: 5px;
 }
 .left23{
 	margin:30px 0px 15px 20px; 
 }
-.left23￥{
+.left23${
 	margin:0px 15px 0px 45px;
 	color: #ff0000;
 }
@@ -437,12 +431,12 @@ a{
 	color: #ff03b7;
 	font-weight: bolder;
 }
-.left281{
+.left273{
 	float: left;
 	font-size: 12px;
 	margin:2px 10px 0px 74px;
 }
-.left291{
+.left274{
 	float: left;
 	background-color: white;
 	border:1px solid #ff0754;
@@ -451,30 +445,32 @@ a{
 	border-radius:5px;
 	margin-right: 15px;
 }
-.changtext{
+.zuixiatext{
 	margin:10px 0px 0px 50px;
 	font-size: 12px;
 	color: #9a9791;
 	float: left;
 }
-.lasttext{
+.zuixiatext{
 	margin:10px 0px 0px 525px;
 	font-size: 12px;
 	color: #9a9791;
 	float: left;
 }
-.lastpicture{
+.zuixiapicture{
 	margin:10px 0px 0px 210px;
 	float: left;
 }
 .a0{
 	width: 100%;
+	z-index:1000;
 	height: 1300px;
 	background-color: #dedcd8;
-	opacity: 0.5;
+	opacity: 0.6;
 	display: none;
 	position: fixed;
 	left: 0px;
 	top:0px;
-	z-index:1000;
 }
+
+	

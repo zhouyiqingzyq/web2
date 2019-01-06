@@ -1,8 +1,8 @@
-			window.onload = function(){
-				var one_0 = document.getElementsByClassName('one_0')[0];
+﻿			window.onload = function(){
+				var one_0 = document.getElementById("one_0");
 				window.onscroll=function(){
 					var st = document.documentElement.scrollTop || document.body.scrollTop;
-					if(st>230){
+					if(st>200){
 						one_0.style.position = 'fixed';			
 						one_0.style.backgroundColor="white";
 					}else{
@@ -10,123 +10,122 @@
 					}
 				}
 			}
-			var rb2 = document.getElementsByClassName('rb2')[0];
-			rb2.style.left='0px';
+			var rb21 = document.getElementById("rb21");
+			rb21.style.left='0px';
 			var a1;
-			rb2.onmouseover=function(){
+			rb21.onmouseover=function(){
 				clearInterval(a1);
-				a1=setInterval(you1,1);
+				a1=setInterval(fun1,1);
 			}
-			rb2.onmouseout=function(){
+			rb21.onmouseout=function(){
 				clearInterval(a1);
-				a1=setInterval(you11,1);
+				a1=setInterval(fun2,1);
 			}
-			function you1(){  
-				var you1 = parseInt(rb2.style.left);
-				if(rb2.style.left=='-80px'){
+			function fun1(){  
+				var c = parseInt(rb21.style.left);
+				if(rb21.style.left=='-80px'){
 					clearInterval(a1);
 				}else{
-					rb2.style.left=you1-1+'px';
+					rb21.style.left=c-1+'px';
 				}
 			}
-			function you11(){
-				var you11 = parseInt(rb2.style.left);
-				if(rb2.style.left=='0px'){
+			function fun2(){
+				var d = parseInt(rb21.style.left);
+				if(rb21.style.left=='0px'){
 					clearInterval(a1);
 				}else{
-					rb2.style.left=you11+1+'px';
+					rb21.style.left=d+1+'px';
 				}
 			}
-			//second
-			var you112 = document.getElementsByClassName('rb2')[1];
-			you112.style.left='0px';
+			var rb21 = document.getElementById("rb22");
+			rb21.style.left='0px';
 			var a2;
-			function you2(){  
-				var you1 = parseInt(you112.style.left);
-				if(you112.style.left=='-80px'){
+			function fun3(){  
+				var e = parseInt(rb21.style.left);
+				if(rb21.style.left=='-70px'){
 					clearInterval(a2);
 				}else{
-					you112.style.left=you1-1+'px';
+					rb21.style.left=e-1+'px';
 				}
 			}
-			function you21(){
-				var you11 = parseInt(you112.style.left);
-				if(you112.style.left=='0px'){
+			function funbb(){
+				var d = parseInt(rb21.style.left);
+				if(rb21.style.left=='0px'){
 					clearInterval(a2);
 				}else{
-					you112.style.left=you11+1+'px';
+					rb21.style.left=d+1+'px';
 				}
 			}
-			you112.onmouseover=function(){
+			rb21.onmouseover=function(){
 				clearInterval(a2);
-				a2=setInterval(you2,1);
+				a2=setInterval(fun3,1);
 			}
-			you112.onmouseout=function(){
+			rb21.onmouseout=function(){
 				clearInterval(a2);
-				a2=setInterval(you21,1);
+				a2=setInterval(funbb,1);
 			}
-			var you113 = document.getElementsByClassName('rb2')[2];
+			var rb23 = document.getElementById("rb23");
 			var erwei = document.getElementById('erwei');
 			var erwei1 = document.getElementById('erwei1');
 			erwei.appendChild(erwei1);
-			you113.style.left='0px';
+			rb23.style.left='0px';
 			var a3;
-			function you3(){  
-				var you1 = parseInt(you113.style.left);
-				if(you113.style.left=='-80px'){
+			function func(){  
+				var f = parseInt(rb23.style.left);
+				if(rb23.style.left=='-80px'){
 					clearInterval(a3);
 				}else{
-					you113.style.left=you1-1+'px';
+					rb23.style.left=f-1+'px';
 				}
 			}
-			function you31(){
-				var you11 = parseInt(you113.style.left);
-				if(you113.style.left=='0px'){
+			function funcc(){
+				var you11 = parseInt(rb23.style.left);
+				if(rb23.style.left=='0px'){
 					clearInterval(a3);
 				}else{
-					you113.style.left=you11+1+'px';
+					rb23.style.left=you11+1+'px';
 				}
 			}
-			you113.onmouseover=function(){
+			rb23.onmouseover=function(){
 				erwei1.src = '../img/erwei.png';
 				erwei.setAttribute('class','erwei2')			
 				clearInterval(a3);
 				a3=setInterval(you3,1);
 			}
-			you113.onmouseout=function(){
+			rb23.onmouseout=function(){
 				erwei1.src = '../img/serwei.png';
 				erwei.setAttribute('class','erwei1');					
 				clearInterval(a3);
 				a3=setInterval(you31,1);
 			}
-			var you114 = document.getElementsByClassName('rb2')[3];
-			you114.style.left='0px';
+			var rb24 = document.getElementById("rb24");
+			rb24.style.left='0px';
 			var a4;
-			function you4(){  
-				var you1 = parseInt(you114.style.left);
-				if(you114.style.left=='-80px'){
+			function funaa(){  
+				var you1 = parseInt(rb24.style.left);
+				if(rb24.style.left=='-80px'){
 					clearInterval(a4);
 				}else{
-					you114.style.left=you1-1+'px';
+					rb24.style.left=you1-1+'px';
 				}
 			}
-			function you41(){
-				var you11 = parseInt(you114.style.left);
-				if(you114.style.left=='0px'){
+			function funab(){
+				var you11 = parseInt(rb24.style.left);
+				if(rb24.style.left=='0px'){
 					clearInterval(a4);
 				}else{
-					you114.style.left=you11+1+'px';
+					rb24.style.left=you11+1+'px';
 				}
 			}
-			you114.onmouseover=function(){
+			rb24.onmouseover=function(){
 				clearInterval(a4);
-				a4=setInterval(you4,1);
+				a4=setInterval(funaa,1);
 			}
-			you114.onmouseout=function(){
+			rb24.onmouseout=function(){
 				clearInterval(a4);
-				a4=setInterval(you41,1);
+				a4=setInterval(funab,1);
 			} 
-			var biao2 = document.getElementsByClassName('biao2')[0];
+			var biao2 = document.getElementById("biao2");
 			for(var i=1;i<14;i++){
 				var div = document.createElement('div');
 				var text = document.createTextNode("[公告] 帮购及VIP服务调整"+i);
@@ -142,7 +141,7 @@
 				biao2.appendChild(div);
 			}
 			biao2.style.top='0px';
-			function gonggao(){
+			function fung(){
 				var top = parseInt(biao2.style.top);
 				if(biao2.style.top=='-355px'){
 					biao2.style.top='0px';
@@ -150,14 +149,14 @@
 					biao2.style.top=top-1+'px';
 				}
 			}
-			biao2.timer = setInterval(gonggao,25);
+			biao2.timer = setInterval(fung,25);
 			biao2.onmouseover=function(){
 				clearInterval(biao2.timer);
 			}
 			biao2.onmouseout=function(){
-				biao2.timer=setInterval(gonggao,25);
+				biao2.timer=setInterval(fung,25);
 			}
-	    //轮播图
+	    	//轮播图
 			var slider = document.getElementById('slider');
 			var left21 = document.getElementById('left21');
 			var left = document.getElementById('left');
@@ -184,9 +183,9 @@
 				});	
 				navChange();	
 			}
-			var timer = setInterval(next,2000);
+			var time = setInterval(next,2000);
 			left21.onmouseover = function(){
-				clearInterval(timer);
+				clearInterval(time);
 				animate(left,{opacity:100});
 				animate(right,{opacity:100});
 
@@ -194,7 +193,7 @@
 			left21.onmouseout = function(){
 				animate(left,{opacity:0});
 				animate(right,{opacity:0});
-				timer = setInterval(next,3000);
+				time = setInterval(next,3000);
 			}
 			right.onclick = next;
 			left.onclick = prev;
@@ -221,24 +220,12 @@
 			}		
 			var coin1 = document.getElementById('coin1');
 			var coin2 = document.getElementById('coin2');
-			var button = document.getElementsByClassName('button')[0];
+			var button11 = document.getElementById("button11");
 			coin1.onchange=function(){
 				coin2.innerHTML="￥"+" "+coin1.value;
 			}
-			button.onclick=function(){
+			button11.onclick=function(){
 				alert(coin1.value+"元话费充值成功！");
-			}
-			window.onload = function(){
-				var one_0 = document.getElementsByClassName('one_0')[0];
-				window.onscroll=function(){
-					var st = document.documentElement.scrollTop || document.body.scrollTop;
-					if(st>100){
-						one_0.style.position = 'fixed';						
-						one_0.style.backgroundColor="white";
-					}else{
-						one_0.style.position = 'static';
-					}
-				}
 			}
 			function animate(obj,json,callback){
 				clearInterval(obj.timer);
