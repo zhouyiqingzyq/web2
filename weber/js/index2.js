@@ -67,51 +67,51 @@
 				a1.style.display="none";
 			}
 			var add = document.getElementById('add');
-			var left263 = document.getElementsByClassName('left263')[0];
+			var left2 = document.getElementsByClassName('left263')[0];
 			var jian = document.getElementById('jian');			
 			add.onmouseover=function(){
-				if(left263.value<5){
+				if(left2.value<5){
 					add.style.cursor="pointer";
 				}else{
 					add.style.cursor="not-allowed";
 				}
 			}
 			add.onclick=function(){
-				if(left263.value<5){
-					left263.value++;
+				if(left2.value<5){
+					left2.value++;
 				}	
 				else{
 					add.style.cursor="not-allowed";
 				}			
 			}
 			jian.onmouseover=function(){
-				if(left263.value>1){
+				if(left2.value>1){
 					jian.style.cursor="pointer";
 				}else{
 					jian.style.cursor="not-allowed";
 				}			
 			}
 			jian.onclick=function(){
-				if(left263.value>1){
-					left263.value--;
+				if(left2.value>1){
+					left2.value--;
 				}else{
 					jian.style.cursor="not-allowed";
 				}					
 			}
-			var left252 = document.getElementsByClassName('left252')[0];
-			var left253 = document.getElementsByClassName('left253')[0];
+			var left3 = document.getElementsByClassName('left252')[0];
+			var left4 = document.getElementsByClassName('left253')[0];
 			var ml150 = document.getElementById('ml150');
-			left252.onclick=function(){
-				ml150.innerHTML=""+left252.innerHTML;
-				left253.style.background="no-repeat bottom right";
-				left253.style.borderColor="white";
-				left252.style.borderColor="#ff0853";
+			left3.onclick=function(){
+				ml150.innerHTML=""+left3.innerHTML;
+				left4.style.background="no-repeat bottom right";
+				left4.style.borderColor="white";
+				left3.style.borderColor="#ff0853";
 			}
-			left253.onclick=function(){
+			left4.onclick=function(){
 				ml150.innerHTML=left253.innerHTML;
-				left252.style.background="no-repeat bottom right";
-				left252.style.borderColor="white";
-				left253.style.borderColor="#ff0853";
+				left3.style.background="no-repeat bottom right";
+				left3.style.borderColor="white";
+				left4.style.borderColor="#ff0853";
 			}
 			var imgpp = document.getElementById('imgpp');
 			var bigpp = document.getElementById('bigpp');
@@ -120,24 +120,24 @@
 			var left121 = document.getElementsByClassName('left121')[0];
 			var left122 = document.getElementsByClassName('left122')[0];
 			var flag = 1;
-			function a(){
+			function funa(){
 				imgpp.src='../img/pp0.jpeg';
 				bigpp.src='../img/big1.jpg';
 				left121.style.borderColor="#ff9003";
 				left122.style.borderColor="white";	
 				flag = 1;											
 			}
-			function b(){
+			function funb(){
 				imgpp.src='../img/pp1.jpeg';
 				left121.style.borderColor="white";
 				left122.style.borderColor="#ff9003";
 				flag = 0;
 			}			
-			function c(){
+			function func(){
 				if(flag==1){
-					b();
+					funb();
 				}else{
-					a();
+					funa();
 				}
 			}	
 			

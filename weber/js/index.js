@@ -65,7 +65,6 @@
 				clearInterval(a2);
 				a2=setInterval(you21,1);
 			}
-			//third
 			var you113 = document.getElementsByClassName('rb2')[2];
 			var erwei = document.getElementById('erwei');
 			var erwei1 = document.getElementById('erwei1');
